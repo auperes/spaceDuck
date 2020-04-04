@@ -10,9 +10,9 @@
       "args": [
         "-std=c++17",
         "-g",
-        "${file}",
+        "${workspaceFolder}/*.cpp",
         "-o",
-        "${fileDirname}/debug/Test.exe",
+        "${workspaceFolder}/debug/Test.exe",
         "-v"
       ],
       "options": {
